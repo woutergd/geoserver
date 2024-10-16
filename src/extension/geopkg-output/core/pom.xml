@@ -25,11 +25,6 @@
       <version>${project.version}</version>
     </dependency>
     <dependency>
-      <groupId>org.geoserver</groupId>
-      <artifactId>gs-gwc</artifactId>
-      <version>${project.version}</version>
-    </dependency>
-    <dependency>
       <groupId>org.geotools</groupId>
       <artifactId>gt-geopkg</artifactId>
       <version>${gt.version}</version>
@@ -65,11 +60,11 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
-  <!-- <build>
+  <build>
     <testResources>
       <testResource>
         <directory>src/test/resources</directory>
       </testResource>
     </testResources>
-  </build> -->
+  </build>
 </project>
