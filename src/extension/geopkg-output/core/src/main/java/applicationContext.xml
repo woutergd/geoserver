@@ -7,9 +7,6 @@
 <!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN//EN" "http://www.springframework.org/dtd/spring-beans.dtd">
 <beans>
 
-    <bean id="FileBackedRawResponse" class="org.geoserver.tiles.FileBackedRawMapResponse">
-    </bean>
-    
     <bean id="geopkgDataStoreFactoryInitializer" class="org.geoserver.geopkg.GeoPkgDataStoreFactoryInitializer">
         <property name="resourceLoader" ref="resourceLoader"/>
     </bean>
